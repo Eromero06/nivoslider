@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/nivo-slider.css">
+<link href="themes/default/default.css" rel="stylesheet">
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript"> 
+$(window).on('load', function() {
+    $('#slider').nivoSlider(); 
+}); 
+</script>	
+</head>
+
+<body>
+	<div class="slider-wrapper theme-default">
+	<div id="slider" class="nivoSlider">     
+		<a href="http://youtube.com/watch?v=KeHxGlSL0DQ" target="_blank"><img src="img/nemo.jpg" alt="" title="#htmlcaption" /></a>    
+		<a href="http://youtube.com/watch?v=YbrZc8YnagQ" target="_blank"><img src="img/toystory.jpg" alt="" title="#twitter" /></a>     
+		<a href="http://youtube.com/watch?v=q3oXpnjNDrQ" target="_blank"><img src="img/up.jpg" alt="" title="#instangram" /></a>     
+		<a href="http://youtube.com/watch?v=OUTwYB8uigc" target="_blank"><img src="img/walle.jpg" alt="" title="#youtube" /></a> 
+	</div> 
+		<div id="htmlcaption" class="nivo-html-caption">     
+			<strong>Nemo</strong>  <em>Visita</em> nuestro <a href="http://facebook.com/" target="_blank">Facebook</a>.
+		</div>
+		<div id="twitter"	class="nivo-html-caption">
+		<strong>Toy Story</strong> <em>Visita</em> nuestro <a href="http://twitter.com/" target="_blank">Twitter</a>.
+		</div>
+		<div id="instangram" class="nivo-html-caption">     
+			<strong>Up</strong> <em>Visita</em> nuestro <a href="https://instagram.com" target="_blank">Instangram</a>.
+		</div>
+		<div id="youtube"	class="nivo-html-caption">
+		<strong>Walle</strong> <em>Visita</em> nuestro <a href="http://youtube.com/" target="_blank">You Tube</a>.
+		</div>
+	</div>
+	
+</body>
+</html>
